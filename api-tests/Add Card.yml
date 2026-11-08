@@ -10,7 +10,7 @@ http:
     type: json
     data: |-
       {
-        "playerName": "{{cardName}}",
+        "playerName": "{{Bugs Bunny}}",
         "teamName": "Test Squad",
         "cardValue": 1234,
         "publisher": "Bruno Collectibles"
@@ -59,3 +59,4 @@ settings:
   timeout: 0
   followRedirects: true
   maxRedirects: 5
+  forwardAuthorizationHeader: true

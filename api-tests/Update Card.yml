@@ -10,7 +10,9 @@ http:
     type: json
     data: |-
       {
-        "cardValue": 4321
+        "cardValue": 4321,
+        "userId": "000000000000000000000000"
+
       }
   auth:
     type: bearer
@@ -36,3 +38,4 @@ settings:
   timeout: 0
   followRedirects: true
   maxRedirects: 5
+  forwardAuthorizationHeader: true
